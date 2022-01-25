@@ -133,10 +133,6 @@ if __name__ == '__main__':
     print('\nHTML email body is...')
     print(message['html'])
 
-    # HTML messages to file
-    
-    with open('message_html.html', 'w', encoding='utf-8') as f:
-        f.write(message['html'])
 
     # test send_email()
     print('\nSending test email...')
